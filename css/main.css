@@ -241,7 +241,7 @@ html, body {
 }
 
 .carousel-item img{
-  max-height:140px ;
+  max-height:170px ;
 }
 
 @media (min-width: 900px) {
@@ -249,3 +249,4 @@ html, body {
     max-height:300px ;
   }
 }
+

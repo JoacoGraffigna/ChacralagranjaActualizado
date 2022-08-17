@@ -202,6 +202,9 @@ html, body {
 
 .carrusel_de_imagenes{
   max-height: 500px;
+  max-width: 75%;
+  background-color: red;
+  margin: auto;
 }
 
 .carousel-inner{
@@ -241,12 +244,18 @@ html, body {
 }
 
 .carousel-item img{
-  max-height:160px ;
+  max-height: 500px;
 }
 
 @media (min-width: 900px) {
   .carousel-item img{
-    max-height:300px ;
+    max-height:500px ;
   }
 }
 
+
+@media (max-width:600px){
+  .carousel-item img{
+    max-height: 165px;
+  }
+}
